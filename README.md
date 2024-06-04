@@ -1,8 +1,17 @@
-# React + Vite
+# Projeto pagina login com react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto é uma aplicação React que utiliza `useState` para armazenar o login e a senha. Ele também implementa um botão que muda uma variável e utiliza `useEffect` para verificar se a senha e o login estão corretos quando a variável é alterada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como usar
+
+1. Clone este repositório.
+2. Instale as dependências com `npm install`.
+3. Inicie o servidor de desenvolvimento com `npm run dev`.
+
+
+
+
+
+
