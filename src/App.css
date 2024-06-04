@@ -1,0 +1,20 @@
+/* Define o estilo global para todos os elementos */
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: Helvetica; 
+  text-shadow: #000 1px 1px;
+  color: #fff; 
+}
+
+/* Estilo para o componente App */
+.App {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  background: url("assets/vecteezy_technology-connection-circuit-system-design-background_6699632.jpg") no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+}

@@ -1,0 +1,153 @@
+/* Estilo geral do container */
+.container {
+  width: 450px;
+  background: rgba(214, 192, 192, 0.305); 
+  backdrop-filter: blur(10px); 
+  border: 2px solid rgba(214, 192, 192, 0.305); 
+  border-radius: 10px; 
+  padding: 40px; 
+}
+
+/* Estilo do título dentro do container */
+.container h1 {
+  text-align: center; 
+  font-size: 30px;
+  color: #ffff;
+}
+
+/* Estilo do campo de entrada */
+.container .input-field {
+  position: relative; 
+  width: 100%; 
+  height: 50px; 
+  margin: 30px auto; 
+}
+
+/* Estilo do input dentro do campo de entrada */
+.input-field input {
+  width: 100%;
+  height: 100%; 
+  background: transparent; 
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 40px; 
+  font-size: 16px;
+  color: #ffffff; 
+  padding: 20px 45px 20px 25px; 
+}
+
+/* Estilo do placeholder dentro do input */
+.input-field input::placeholder {
+  color: #fff; 
+}
+
+/* Estilo do ícone dentro do campo de entrada */
+.input-field .icon {
+  position: absolute; 
+  right: 25px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 16px;
+  color: #fff; 
+}
+
+/* Estilo da seção "Lembrar senha" e "Esqueceu sua senha?" */
+.container .recall-forget {
+  display: flex; 
+  justify-content: space-between;
+  font-size: 14.5px; 
+  margin: -15px 0 15px; 
+}
+
+/* Estilo do input dentro do label de "Lembrar senha" */
+.recall-forget label input {
+  accent-color: #fff;
+  margin-right: 4px;
+}
+
+/* Estilo do link "Esqueceu sua senha?" */
+.recall-forget a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+/* Efeito de hover para o link "Esqueceu sua senha?" */
+.recall-forget a:hover {
+  text-decoration: underline; 
+}
+
+/* Estilo do botão de login */
+.container button {
+  width: 100%; 
+  height: 45px;
+  background: #ffffff; 
+  border: none; 
+  outline: none; 
+  border-radius: 40px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  cursor: pointer; 
+  font-size: 16px; 
+  color: #333; 
+  font-weight: 700;
+  text-shadow: none; 
+}
+
+/* Estilo da seção de link de registro */
+.container .signup-link {
+  font-size: 14.5px; 
+  text-align: center; 
+  margin: 20px 0 15px; 
+}
+
+/* Estilo do link de registro */
+.signup-link p a {
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: 600; 
+}
+
+/* Efeito de hover para o link de registro */
+.signup-link p a:hover {
+  text-decoration: underline; 
+}
+
+/* Estilo geral para a mensagem de sucesso ou erro */
+.message {
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  font-size: 1em; 
+}
+
+/* Estilo específico para mensagem de sucesso */
+.message.success {
+  width: 100%; 
+  height: 35px;
+  background: #fdfdfd; 
+  border: none; 
+  outline: none; 
+  border-radius: 40px; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.212); 
+  cursor: pointer; 
+  font-size: 16px; 
+  color: #187204; 
+  font-weight: 700;
+  text-shadow: none; 
+}
+
+/* Estilo específico para mensagem de erro */
+.message.error {
+  width: 100%; 
+  height: 35px;
+  background: #fdfdfd; 
+  border: none; 
+  outline: none; 
+  border-radius: 40px; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.212); 
+  cursor: pointer; 
+  font-size: 16px; 
+  color: #fc0000; 
+  font-weight: 700;
+  text-shadow: none; 
+}
